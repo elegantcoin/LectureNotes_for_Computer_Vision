@@ -18,9 +18,9 @@
 - 3.`highgui`模块,界面操作，可以查看图像处理的中间过程，用到`waitKey()`，还可以缩放保存图像。
 - 4.视频处理模块`videostab`,可以对拍摄视频抖动校准。
 - 5.`3D`模块，强大的算法可以利用`calib3d`计算`2D`图像下物体的`3D`位置
-- 6.`特征提取`：主要的算法有 - 算法包括尺度不变特征变换（Scale Invariant Feature Transform，SIFT）、加速鲁棒特征（Speeded Up Robust Features，SURF）和加速分段测试特征（Features From Accelerated Segment Test，FAST）。
-- 6.
-- 6.
-- 6.
+- 6.`特征提取`的`features2d`模块：主要的算法有 - 算法包括尺度不变特征变换（Scale Invariant Feature Transform，SIFT）、加速鲁棒特征（Speeded Up Robust Features，SURF）和加速分段测试特征（Features From Accelerated Segment Test，FAST）。
+- 7.`对象检测`的`objdetect`模块:可以使用预训练模型+ `Caffe`轻松实现实时对象检测
+- 8.`机器学习`的`ml`模块：贝叶斯分类器（Bayes classifier）、KNN（k-nearest neighbor），支持向量机（support vector machine，SVM）、决策树（decision tree）、神经网络（neural network）以及最近领域搜索算法。
+- 9.
 
 ## :fire: 2. 供
