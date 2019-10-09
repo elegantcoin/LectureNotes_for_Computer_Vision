@@ -21,6 +21,12 @@
 - 6.`特征提取`的`features2d`模块：主要的算法有 - 算法包括尺度不变特征变换（Scale Invariant Feature Transform，SIFT）、加速鲁棒特征（Speeded Up Robust Features，SURF）和加速分段测试特征（Features From Accelerated Segment Test，FAST）。
 - 7.`对象检测`的`objdetect`模块:可以使用预训练模型+ `Caffe`轻松实现实时对象检测
 - 8.`机器学习`的`ml`模块：贝叶斯分类器（Bayes classifier）、KNN（k-nearest neighbor），支持向量机（support vector machine，SVM）、决策树（decision tree）、神经网络（neural network）以及最近领域搜索算法。
-- 9.
+- 9.`形状分析`的`shape`模块。
+- 10.`人脸识别`的`face`模块。目标识别，检测，跟踪。注意区别`recognition` 和 `detection`。
+- 11.安装
+    - Windows
+    - MacOS
+    - Linux （可以参考`pyimagesearch`上的大佬`Adrian Rosebrock`） （`make -j4`的`4`就是编译用几个核，多核可以加快安装过程）
 
-## :fire: 2. 供
+## :fire: 2. OpenCV基础知识
+- 1.图像和矩阵。
