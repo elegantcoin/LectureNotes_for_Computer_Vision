@@ -42,20 +42,20 @@
 - 4.`OpenGL`
 
 ## :fire: 4. Histogram and Filters（直方图和滤波器）
+- 1.`cv2.calcHist(images,channels,mask,histSize,ranges)`绘制直方图。
+- 2.`cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)`将图像转换为灰阶，可以绘制灰阶直方图。
+- 3.`Lomography`效果，我感觉相机也有，但是我几乎都不用这个。`LUT`（S型函数，让暗值更暗、亮值更亮，实现高对比） 
+- 4.颜色直方图：用`cv2.split(image)`把颜色通道提取出来，分别绘制直方图。
+- 5.图像均衡器：`cv2.equalizeHist(image)`
+
+## :fire: 5. 自动光学检查、对象分割和检测
 - 1.
 - 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
+- 3.
+- 4.
+- 5.
+- 6.
+- 7.
 - 2.
 - 2.
 - 2.
