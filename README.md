@@ -10,3 +10,13 @@
     <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
 </p>
 <br />
+
+## :fire: 1. 了解OpenCV
+
+- 1.`OpenCV`的`imgproc`模块提供了很多基本函数，可以用来轻松处理图像。
+- 2.高级的图像处理算法如：构化森林的边缘检测、域变换滤波器、自适应流形滤波器 用到了`ximgproc`模块。
+- 3.
+- 4.
+- 5.
+
+## :fire: 2. 供参考的[**一些时间表（:link:点击查看完整列表）**]
