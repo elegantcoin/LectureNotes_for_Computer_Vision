@@ -26,7 +26,7 @@
 - 11.安装
     - Windows
     - MacOS
-    - Linux （可以参考`pyimagesearch`上的大佬`Adrian Rosebrock`） （`make -j4`的`4`就是编译用几个核，多核可以加快安装过程）
+    - Linux （可以参考`pyimagesearch`上的大佬[`Adrian Rosebrock`](https://www.pyimagesearch.com/)） （`make -j4`的`4`就是编译用几个核，多核可以加快安装过程）
 
 ## :fire: 2. OpenCV基础知识
 - 1.图像和矩阵。
