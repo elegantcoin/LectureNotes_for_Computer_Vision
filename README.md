@@ -58,17 +58,41 @@
     - 查找轮廓：（findContours会修改原图，一般建议保存副本后再使用该函数）
 
 ## :fire: 6. Object Classification（对象分类）
-- 1.OPenCV有八种机器学习算法：
+- 1.`OPenCV`的`StatModel类`有八种机器学习算法：
     - `Artificial neural networks`、`Random trees`、`Expectation maximization`、`k-nearest neighbors`、`Logistic regression`、`Normal Bayes classifiers`、`support vector machine`和`Stochastic gradient descent SVMs`
+- 2.计算机视觉和机器学习
+    - 步骤：1.预处理 2.分割 3.特征提取 4.分类结果 5.后处理
+
+## :fire: 7. 面部检测
+- 1.`Haar级联`：
+    - 弱分类器串联，来创建强分类器
+    - `integral images`:  ABCD = AC - (AB + AD - AA)
+
+## :fire: 8. 视频监控、背景建模
+- 1.背景减除（`background subtraction`）：
+    - 图像绝对差值，再阈值处理
+    - 对光照变化敏感，不能处理相机移动的情景。
+- 2.帧差分（`Frame differencing`）
+    - 当前帧与前一帧之间或者与下一帧之间的绝对差值，然后按位`AND`运算
+- 3.高斯混合（`MOG`）
+- 4.形态学运算符
+    - 侵蚀
+    - 膨胀
+    - 形态开口
+    - 形态闭合
+    - 绘制边框
+    - Top Hat transform
+    - Black Hat transform
+
+## :fire: 9. 对象跟踪
+- 1.Tracking color
 - 2.
 - 3.
-- 4.
+- 4.  
 - 5.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
+- 6.
+- 7.
+
 - 2.
 - 2.
 - 2.
