@@ -82,4 +82,37 @@
 - 2.
 - 2.
 
+## :fire: Appendix A. 面试问题
+- 1.`SVM`
+- 2.决策树的优缺点
+- 3.`L1`、`L2`正则的区别
+    - 权重惩罚不一样
+- 4.`ResNet` `DetNet`的原理
+- 5.梯度下降、牛顿法的区别
+    - 用不用`海森矩阵`信息，一阶、二阶
+- 6.`Faster-RNN` （`RPN`） ，将`ROI`标记为前景或背景。抛弃背景`anchors`区域，而前景对象传播到`ROI Pooling`模块。 
+- 7.`FPN`（`Feature pyramid Network`）
+- 8.目标检测，`one-stage`、`two-stage`
+- 9.`BP`（`Back Propagation`） 正向、反向传播 
+- 10.`Poling`、梯度消失、过拟
+- 11.`NMS`（`Non-Maximum Suppression`）非极大值抑制  IoU
+- 12.`SSD` `SENet` `Focal Loss`
+- 13.`BN`层 （`Batch Normalization`） 白化，太多层，容易早停，高层分布变化大   M Std 归一化处理
+- 14.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
+- 4.
 
