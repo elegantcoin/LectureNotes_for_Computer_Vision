@@ -96,29 +96,21 @@
 
 
 ## :fire: 9. 文本识别的分割（Segmentation）算法
-- 1.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
-- 2.
+- 1.阈值处理
+- 2.文本分割
+    - Using connected component analysis
+    - Use classifiers to search for a previously trained letter texture pattern
+- 3.使用`Tesseract OCR`模块 `MSER`特征检测器
 
-
+## :fire: 10. OpenCV深度学习
+- 1.[Tensoreditor](https://www.tensoreditor.com) or [lobe.ai](https://lobe.ai/)
+- 2.`YOLO3`
+    - 80个类别
+    - 每个网格使用19个和5个边框网格训练
+    - 输出19×19×425
+    - 基于DarkNet，YOLO增加了53层，总共106层
+- 3.`SSD`
+    - 可以修改模型，只检测一个类
 
 
 
@@ -136,8 +128,10 @@
 - 9.`BP`（`Back Propagation`） 正向、反向传播 
 - 10.`Poling`、梯度消失、过拟
 - 11.`NMS`（`Non-Maximum Suppression`）非极大值抑制  IoU
-- 12.`SSD` `SENet` `Focal Loss`
+- 12.`SSD` `SENet` `Focal Loss` `YOLO`
 - 13.`BN`层 （`Batch Normalization`） 白化，太多层，容易早停，高层分布变化大   M Std 归一化处理
+- 14.数据集：`MNIST`、`CIFAR-10`、`SMILE`、`Kaggle`、`Flowers-17`、`CALTECH-101`、`ImageNet`、`FER13`、`Indoor-CVPR`、`Stanford Cars`、`Adience`
+- 15.模型：`AlexNet`、`VGGNet`、`GoogleNet`、`ResNet`、`SqueezeNet`、`LeNet`(手写识别)、`Faster-RNN`、`SSD`、`YoLo`、`Mask-RNN`
 - ...
 
 
