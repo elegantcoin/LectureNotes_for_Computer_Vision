@@ -49,14 +49,21 @@
 - 5.图像均衡器：`cv2.equalizeHist(image)`
 
 ## :fire: 5. 自动光学检查、对象分割和检测
-- 1.
+- 1.预处理图像
+    - 降噪 `Noise removal` 平滑图像`box filter`, `Gaussian filter`。
+    - 移除背景 光模式 （减法 `R=L-I` 和除法 `R=255*(1-I/L)`） 
+    - `阈值`(`Thresholding`)
+- 2.分割图像
+    - 连接组件：如果相邻两个像素值相同，就连接起来。
+    - 查找轮廓：（findContours会修改原图，一般建议保存副本后再使用该函数）
+
+## :fire: 6. Object Classification（对象分类）
+- 1.OPenCV有八种机器学习算法：
+    - `Artificial neural networks`、`Random trees`、`Expectation maximization`、`k-nearest neighbors`、`Logistic regression`、`Normal Bayes classifiers`、`support vector machine`和`Stochastic gradient descent SVMs`
 - 2.
 - 3.
 - 4.
 - 5.
-- 6.
-- 7.
-- 2.
 - 2.
 - 2.
 - 2.
@@ -98,21 +105,6 @@
 - 11.`NMS`（`Non-Maximum Suppression`）非极大值抑制  IoU
 - 12.`SSD` `SENet` `Focal Loss`
 - 13.`BN`层 （`Batch Normalization`） 白化，太多层，容易早停，高层分布变化大   M Std 归一化处理
-- 14.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
-- 4.
+- ...
+
 
