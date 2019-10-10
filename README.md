@@ -85,13 +85,18 @@
     - Black Hat transform
 
 ## :fire: 9. 对象跟踪
-- 1.Tracking color
-- 2.
-- 3.
-- 4.  
-- 5.
-- 6.
+- 1.`Tracking color`
+- 2.交互式对象跟踪器
+    - 连续自适应平移（CAMShift）算
+- 3.`Harris corner detector`
+    - 基于灰度图像偏导数构造2×2矩阵，然后分析特征值
+- 4. `Good features to track`
+- 5.`Feature-based tracking`
+    - 运动向量检测：`Lucas-Kanade`（稀疏光流）和`Farneback`算法（密集技术，需要处理所有像素）。
 
+
+## :fire: 9. 文本识别的分割（Segmentation）算法
+- 1.
 - 2.
 - 2.
 - 2.
@@ -111,6 +116,11 @@
 - 2.
 - 2.
 - 2.
+- 2.
+
+
+
+
 
 ## :fire: Appendix A. 面试问题
 - 1.`SVM`
